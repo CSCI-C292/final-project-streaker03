@@ -70,10 +70,11 @@ public class TerrorController : MonoBehaviour {
             Destroy(gameObject);
         }
 
-        Collider[] lights = Physics.OverlapSphere(transform.position, 100, LayerMask.NameToLayer("Lights"));
+        Collider[] lights = Physics.OverlapSphere(transform.position, 100, 1<<13);
         GameObject min = null;
         float distance = Mathf.Infinity;
         foreach(Collider col in lights) {
+            Debug.Log(col.gameObject.name);
             if(Vector3.Distance(transform.position, col.gameObject.transform.position) < distance) {
                 min = col.gameObject;
                 distance = Vector3.Distance(transform.position, col.transform.position);
@@ -82,7 +83,9 @@ public class TerrorController : MonoBehaviour {
 
         Light light = min.GetComponent<Light>();
         if(light != current) {
-            current.enabled = true;
+            if(current != null) {
+                current.enabled = true;
+            }
             light.enabled = false;
             current = light;
         }

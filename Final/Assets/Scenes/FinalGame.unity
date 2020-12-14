@@ -248,7 +248,8 @@ GameObject:
   - component: {fileID: 5422244}
   - component: {fileID: 5422246}
   - component: {fileID: 5422245}
-  m_Layer: 0
+  - component: {fileID: 5422247}
+  m_Layer: 13
   m_Name: Area Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -441,6 +442,19 @@ Light:
   m_UseBoundingSphereOverride: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!65 &5422247
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5422243}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &114374658
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,7 +608,8 @@ GameObject:
   - component: {fileID: 191130268}
   - component: {fileID: 191130270}
   - component: {fileID: 191130269}
-  m_Layer: 0
+  - component: {fileID: 191130271}
+  m_Layer: 13
   m_Name: Area Light (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -787,6 +802,19 @@ Light:
   m_UseBoundingSphereOverride: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!65 &191130271
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191130267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &203503701
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,7 +1299,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -7431,7 +7459,8 @@ GameObject:
   - component: {fileID: 744966427}
   - component: {fileID: 744966429}
   - component: {fileID: 744966428}
-  m_Layer: 0
+  - component: {fileID: 744966430}
+  m_Layer: 13
   m_Name: Area Light (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7624,6 +7653,19 @@ Light:
   m_UseBoundingSphereOverride: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!65 &744966430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744966426}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &754530379
 GameObject:
   m_ObjectHideFlags: 0
@@ -7635,7 +7677,8 @@ GameObject:
   - component: {fileID: 754530380}
   - component: {fileID: 754530382}
   - component: {fileID: 754530381}
-  m_Layer: 0
+  - component: {fileID: 754530383}
+  m_Layer: 13
   m_Name: Area Light (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7828,6 +7871,19 @@ Light:
   m_UseBoundingSphereOverride: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!65 &754530383
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754530379}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &754597840
 GameObject:
   m_ObjectHideFlags: 0
@@ -8239,7 +8295,8 @@ GameObject:
   - component: {fileID: 809865182}
   - component: {fileID: 809865184}
   - component: {fileID: 809865183}
-  m_Layer: 0
+  - component: {fileID: 809865185}
+  m_Layer: 13
   m_Name: Area Light (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8432,6 +8489,19 @@ Light:
   m_UseBoundingSphereOverride: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!65 &809865185
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809865181}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &831714268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8684,7 +8754,8 @@ GameObject:
   - component: {fileID: 900293867}
   - component: {fileID: 900293866}
   - component: {fileID: 900293865}
-  m_Layer: 0
+  - component: {fileID: 900293868}
+  m_Layer: 13
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8877,6 +8948,19 @@ Transform:
   m_Father: {fileID: 1642339942}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!65 &900293868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900293864}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &919990792
 GameObject:
   m_ObjectHideFlags: 0
@@ -9408,7 +9492,8 @@ GameObject:
   - component: {fileID: 1074046692}
   - component: {fileID: 1074046694}
   - component: {fileID: 1074046693}
-  m_Layer: 0
+  - component: {fileID: 1074046695}
+  m_Layer: 13
   m_Name: Area Light (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9601,6 +9686,19 @@ Light:
   m_UseBoundingSphereOverride: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!65 &1074046695
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074046691}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1121802895
 GameObject:
   m_ObjectHideFlags: 0
@@ -10018,7 +10116,8 @@ GameObject:
   - component: {fileID: 1370312924}
   - component: {fileID: 1370312926}
   - component: {fileID: 1370312925}
-  m_Layer: 0
+  - component: {fileID: 1370312927}
+  m_Layer: 13
   m_Name: Area Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10211,6 +10310,19 @@ Light:
   m_UseBoundingSphereOverride: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!65 &1370312927
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370312923}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1382263711
 GameObject:
   m_ObjectHideFlags: 0
@@ -11987,7 +12099,8 @@ GameObject:
   - component: {fileID: 2012833882}
   - component: {fileID: 2012833884}
   - component: {fileID: 2012833883}
-  m_Layer: 0
+  - component: {fileID: 2012833885}
+  m_Layer: 13
   m_Name: Area Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12180,6 +12293,19 @@ Light:
   m_UseBoundingSphereOverride: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!65 &2012833885
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012833881}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2135031572
 GameObject:
   m_ObjectHideFlags: 0
