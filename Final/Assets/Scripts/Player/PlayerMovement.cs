@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Linq;
-using UnityEngine;
-using Random = System.Random;
+﻿using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
